@@ -5,8 +5,8 @@ Wants=network-online.target
 After=network-online.target
 
 [Service]
-WorkingDirectory=/opt/dummy-service/current
-ExecStart=/opt/dummy-service/current/dummy-service
+WorkingDirectory=/opt/dummy-service/active
+ExecStart=/opt/dummy-service/active/dummy-service
 Type=simple
 Restart=on-failure
 RuntimeDirectory=dummy-service
